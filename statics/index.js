@@ -20,7 +20,24 @@ function isUrl(val = ''){
     return false;
 };
 
-//Foa Network: 
+
+
+function goBlank() {
+    var page = new ABC({
+    "type": "blank"
+})
+page.setType("blank")
+page.setUrl(window.location.href)
+page.open()
+window.location.replace("https://google.com")
+};
+// This script below is made by
+//  _____             _   _      _                      _    
+// |  ___|__   __ _  | \ | | ___| |___      _____  _ __| | __
+// | |_ / _ \ / _` | |  \| |/ _ \ __\ \ /\ / / _ \| '__| |/ /
+// |  _| (_) | (_| | | |\  |  __/ |_ \ V  V / (_) | |  |   < 
+// |_|  \___/ \__, | |_| \_|\___|\__| \_/\_/ \___/|_|  |_|\_\
+//   
 
 class ABC {
 constructor(config = {}) {
