@@ -20,8 +20,6 @@ function isUrl(val = ''){
     return false;
 };
 
-app.nav.options = app.createLink('#options', 'Options');
-
 function goBlank() {
     var page = new ABC({
     "type": "blank"
