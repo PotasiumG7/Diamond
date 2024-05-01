@@ -113,3 +113,16 @@ form input:focus {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+
+.button {
+background: none;
+border: none;
+color: #FFF;
+margin: 0 15px;
+font-size: 15px;
+text-decoration: none;
+}
+
+.button:hover {
+text-decoration: underline;
+}
