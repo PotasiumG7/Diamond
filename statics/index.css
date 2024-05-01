@@ -114,7 +114,7 @@ form input:focus {
     animation-fill-mode: forwards;
 }
 
-.button {
+footer button {
 background: none;
 border: none;
 color: #FFF;
@@ -123,6 +123,6 @@ font-size: 15px;
 text-decoration: none;
 }
 
-.button:hover {
+.blankbutt:hover {
 text-decoration: underline;
 }
